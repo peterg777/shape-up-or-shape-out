@@ -1,31 +1,26 @@
 .Square {
-    background-color:purple;
+    background-color:red;
     position: absolute;
-    width:100px;
-    height:100px;
+    
 }
 
 .Rectangle {
-    background-color:blue;
+    background-color:green;
     position: absolute;
-    width:200px;
-    height:100px;
+    
 }
 
 .Circle {
-    background-color: black;
+    background-color: purple;
     position: absolute;
-    width:100px;
-    height:100px;
     border-radius:50%
 }
 
 .Triangle-bottomright {
-    width: 0; 
-    height: 0;
+
     position: absolute;
-    border-bottom:100px solid red;
-    border-left:100px solid transparent;
+    border-bottom:300px solid black;
+    border-left:300px solid transparent;
 
 }
 
@@ -45,11 +40,4 @@
     justify-content: center;
     align-items: center;
     background-color: yellow;
-}
-
-#test{
-    background-color:purple;
-    position: absolute;
-    
-
 }
